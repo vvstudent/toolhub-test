@@ -1,0 +1,39 @@
+# ToolHub Sample Repository - Requirements
+
+# Core Python libraries for the sample tools
+# These are commonly available and don't require special installation
+
+# For text processing and analysis
+re>=2022.0.0  # Regular expressions (built-in)
+
+# For data encoding/decoding
+base64>=1.0.0  # Base64 encoding (built-in)
+json>=2.0.0    # JSON processing (built-in)
+urllib3>=1.26.0  # URL processing (built-in as urllib)
+
+# For security and hashing
+hashlib>=1.0.0  # Hash functions (built-in)
+
+# For color processing
+colorsys>=1.0.0  # Color space conversions (built-in)
+
+# For random generation
+random>=1.0.0   # Random number generation (built-in)
+string>=1.0.0   # String constants (built-in)
+
+# For collections and data structures
+collections>=1.0.0  # Counter and other collections (built-in)
+
+# Optional: For enhanced QR code generation (if implementing actual QR codes)
+# qrcode>=7.4.2
+# Pillow>=9.0.0
+
+# Optional: For advanced text analysis
+# textstat>=0.7.3
+# nltk>=3.8
+
+# Optional: For color manipulation
+# colour>=0.1.5
+
+# Note: Most tools use only Python built-in libraries for maximum compatibility
+# Uncomment optional dependencies if you want to implement advanced features
