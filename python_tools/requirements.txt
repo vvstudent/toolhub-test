@@ -35,5 +35,23 @@ collections>=1.0.0  # Counter and other collections (built-in)
 # Optional: For color manipulation
 # colour>=0.1.5
 
+# For QR code generation (qr_generator.py)
+urllib.parse>=1.0.0  # URL encoding (built-in)
+
+# For file hashing (hash_calculator.py)
+hashlib>=1.0.0  # Hash algorithms (built-in)
+os>=1.0.0       # File system operations (built-in)
+time>=1.0.0     # Time operations (built-in)
+
+# For password generation (password_generator.py)
+secrets>=1.0.0  # Cryptographically secure random generation (built-in)
+math>=1.0.0     # Mathematical functions (built-in)
+
+# For text analysis (text_analyzer.py)
+re>=2022.0.0    # Regular expressions (built-in)
+collections>=1.0.0  # Counter and other collections (built-in)
+string>=1.0.0   # String constants (built-in)
+math>=1.0.0     # Mathematical functions (built-in)
+
 # Note: Most tools use only Python built-in libraries for maximum compatibility
 # Uncomment optional dependencies if you want to implement advanced features
